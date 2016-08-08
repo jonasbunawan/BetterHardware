@@ -1,0 +1,52 @@
+<div style="padding:29px 0 36px;background-color:#ffffff;">
+    <div class="container">
+        <div class="slider-with-side">
+            <div class="slider-area">
+                <div id="banner-slider-demo-6" class="owl-carousel owl-theme">
+                    <a href="{{store url='building-materials/stainless-wire-rope-and-fittings/stainless-wire-rope-marine-grade-aisi-316'}}stainless-wire-rope-7x7-3-2mm-marine-grade-aisi-316.html">
+                        <div class="item">
+                            <img src="{{media url="wysiwyg/stainless_wire_rope_7x7_banner.jpg"}}" alt="" />
+                        </div>
+                    </a>
+                    <a href="{{store url='building-materials/stainless-steel-fittings'}}diy-balustade-kits.html">
+                        <div class="item">
+                            <img src="{{media url="wysiwyg/stainless_wire_rope_fittings_kits_banner.jpg"}}" alt="" />
+                            
+                        </div>
+                    </a>
+                    <a href="{{store direct_url='natural-stone/tiles-and-pavers/bluestone.html'}}">
+                        <div class="item">
+                            <img src="{{media url="wysiwyg/Bluestone_Sawn_Pavers_banner.jpg"}}" alt="" />
+                            
+                        </div>
+                    </a>
+                    <a href="{{store url='building-materials/wood-plastic-composites/futurewood-composite-decking/futurewood-cleverdeck-composite-decking'}}futurewood-cleverdeck-wpc-composite-decking-boards.html">
+                        <div class="item">
+                            <img src="{{media url="wysiwyg/futurewood_cleverdeck_banner.jpg"}}" alt="" />
+                            
+                        </div>
+                    </a>
+                    <a href="{{store url='fasteners/screws'}}decking-screws.html">
+                        <div class="item">
+                            <img src="{{media url="wysiwyg/decking_made_easy_banner.jpg"}}" alt="" />
+                           
+                        </div>
+                    </a>
+                </div><!-- #banner-slider-demo-6 -->
+                <script type="text/javascript">
+                    jQuery(function($){
+                        $("#banner-slider-demo-6").owlCarousel({autoPlay:true,lazyLoad: true,stopOnHover: true,pagination: true, autoPlay: true,navigation: false,slideSpeed : 500,paginationSpeed : 500,singleItem:true});
+                    });
+                </script>
+            </div><!-- .slider-area -->
+            <div class="side-area">
+                <div class="item2">
+                     <a href="{{store url='where-dreams-are-built'}}" target="_blank"><img src="{{media url="wysiwyg/homepage-sidebar.jpg"}}" alt="" style="height:380px" /></a>
+                     
+                </div>
+            </div><!-- .side-area -->
+        </div><!-- .slider-with-side -->
+    </div> <!-- .container -->
+</div>
+
+{{block type="core/template" template="catalog/category/sub_category.phtml"}}
